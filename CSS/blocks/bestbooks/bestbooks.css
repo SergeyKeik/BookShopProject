@@ -1,0 +1,15 @@
+.bestbooks {
+    margin: 8px;
+  }
+
+  .bestbooks__list {
+    list-style-type: none;
+    display: flex;
+  }
+  .bestbooks__image {
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+    filter: drop-shadow(5px 5px 5px black);
+  }
+  

@@ -1,0 +1,33 @@
+.panel {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .panel__center {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .panel__search_field {
+    margin-right: 8px;
+  }
+  
+  .panel__navigation__list {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .panel__navigation__list__item {
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+  }
+  
+  .panel__logo__image {
+      width: 200px; 
+      height: auto;
+      padding-right: 10px;
+    }
+  

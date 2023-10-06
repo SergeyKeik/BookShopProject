@@ -1,0 +1,7 @@
+.bodypage-main {
+    margin: 0;
+    padding: 0;
+    background-image: url("res/bgr.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+  }
