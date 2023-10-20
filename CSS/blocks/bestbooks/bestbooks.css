@@ -5,6 +5,10 @@
   .bestbooks__list {
     list-style-type: none;
     display: flex;
+
+    @media (max-width: 600px) {
+      flex-direction: column; 
+    }
   }
   .bestbooks__image {
     width: 100px;

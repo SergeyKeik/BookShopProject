@@ -1,0 +1,14 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    @media (max-width: 1079px) {
+        display: none;
+    }
+}
+.banner__image {
+    width: 1080px;
+    @media (min-width: 1920px) {
+        width: 1600px;
+    }
+}

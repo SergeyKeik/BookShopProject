@@ -3,5 +3,6 @@
 @import url(blocks/description/description.css);
 @import url(blocks/panel/panel.css);
 @import url(blocks/rights/rights.css);
-
+@import url(blocks/banner/banner.css);
 @import url(common/body.css);
+@import url(blocks/table/table.css);
