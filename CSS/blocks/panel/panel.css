@@ -81,17 +81,28 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+
   }
   
   .panel__navigation__list__item {
     font-family: 'Times New Roman', Times, serif;
     font-size: 13pt;
-    color: white;
-    padding: 2px;
+    color: rgba(255, 255, 255, 0.751);
+    padding: 2px; 
+    text-decoration: none;
     @media (max-width: 600px) {
       font-size: 9pt;
     }
 
+  }
+
+  .hover_menu_item {
+    color:white;
+  }
+
+  .active_menu_item {
+    color: white;
+    text-decoration: underline;
   }
   
   .panel__logo__image {
