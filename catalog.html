@@ -8,6 +8,7 @@
       content="Books, store, buy, купить, книга, книги, магазин"
     />
     <title>Книжник</title>
+    <script src="JS/books_form/books_form.js"></script>
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body class="bodypage-main">
@@ -66,3 +67,18 @@
       </div>
       <script src="JS/panel/panel.js"></script>
     </header>
+    <main>
+      <div class="books_form">
+      <form class="books_form__form" onsubmit="add(event)">
+        <label for="author">Автор:</label>
+        <input type="text" name="author" id="author_input">
+        <label for="book">Книга:</label>
+        <input type="text" name="book" id="book_input">
+
+        <button type="submit">Добавить</button>
+      </form>
+      <div class="books_form__resultContainer">
+        
+      </div>
+    </div>
+    </main>
