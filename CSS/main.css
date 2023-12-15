@@ -7,3 +7,6 @@
 @import url(common/body.css);
 @import url(blocks/table/table.css);
 @import url(blocks/books_form/books_form.css);
+@import url(blocks/catalog/catalog.css);
+@import url(blocks/bookpage/bookpage.css);
+@import url(blocks/preloader/preloader.css);

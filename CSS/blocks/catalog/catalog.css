@@ -1,0 +1,29 @@
+.catalog {
+    margin-top: 20px;
+}
+
+.catalog__list__image {
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+    filter: drop-shadow(5px 5px 5px black);
+  }
+
+  .catalog__list {
+    list-style-type: none;
+    display: flex;
+    
+
+    @media (max-width: 600px) {
+      flex-direction: column; 
+    }
+  }
+
+  .catalog__list__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .catalog__list__link {
+    margin-top: 10px;
+  }
