@@ -9,5 +9,7 @@
     };
   })();
 
-$host = $('[mag-thumb="inner-inline"]');
-$host.mag();
+$(document).ready(function() {
+    $host = $('[mag-thumb="inner-inline"]');
+    $host.mag();
+});
