@@ -26,3 +26,11 @@
   }).catch(error => {
     contentElement.innerHTML = '<p>Произошла ошибка...</p>';
 });
+
+console.log("start");
+
+fetch("http://example.com/movies.json")
+.then((response) => {
+  console.log("got image");
+});
+console.log("end");

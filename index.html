@@ -11,6 +11,20 @@
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body class="bodypage-main">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/jquery-bridget/jquery.bridget.js"></script>
+    <script src="node_modules/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="node_modules/jquery.threedubmedia/event.drag/jquery.event.drag.js"></script>
+    <script src="node_modules/screenfull/dist/screenfull.js"></script>
+    <script src="node_modules/hammerjs/hammer.js"></script>
+    <script src="node_modules/prevent-ghost-click/PreventGhostClick.js"></script>
+    <script src="node_modules/magnificent/src/js/mag-analytics.js"></script>
+    <script src="node_modules/magnificent/src/js/mag.js"></script>
+    <script src="node_modules/magnificent/src/js/mag-jquery.js"></script>
+    <script src="node_modules/magnificent/src/js/mag-control.js"></script>
+    <link rel="stylesheet" href="node_modules/magnificent/src/css/mag.css" />
+    <link rel="stylesheet" href="node_modules/magnificent/src/theme/default.css" />
+    
     <header>
       <div class="panel">
         <div class="panel__logo">
@@ -90,9 +104,9 @@
       <div class="bestbooks">
         <h2>Фентези подборка</h2>
         <ul class="bestbooks__list">
-          <li><img src="res/img1.png" class="bestbooks__image" /></li>
-          <li><img src="res/img2.png" class="bestbooks__image" /></li>
-          <li><img src="res/img3.png" class="bestbooks__image" /></li>
+          <li><div mag-thumb="inner-inline" mag-flow="inline" class="example"><img src="res/img1.png" class="bestbooks__image" style="width: 100px; height: auto;" /></div></li>
+          <li><div mag-thumb="inner-inline" mag-flow="inline"><img src="res/img2.png" class="bestbooks__image" style="width: 100px; height: auto;" /></div></li>
+          <li><div mag-thumb="inner-inline" mag-flow="inline"><img src="res/img3.png" class="bestbooks__image" style="width: 100px; height: auto;" /></div></li>
         </ul>
       </div>
       <div class="achievements">
